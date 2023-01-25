@@ -1,0 +1,20 @@
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 2px solid #581299;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        margin: 0px;
+    }
+}
+
+.incomplete-task {
+    color: #ccc;
+    margin-top: 10px;
+}
